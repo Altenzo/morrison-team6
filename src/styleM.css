@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
+body {
+  background: #7c6e8d;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+header {
+  background: rgba(64, 70, 78, 1);
+  width: 100%;
+  height: 72px;
+}
+
+.logo{
+  width: 10%;
+  height: 60px;
+}
+
+.logo img {
+  height: 100%;
+  width: 100%;
+}
+
+.headerList {
+  display: flex;
+}
+
+.headerText {
+  justify-content: center;
+  width: 45%;
+  display: flex;
+}
+
+.headerText a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigalist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigater {
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.navigater a {
+  display: flex;
+}
+
+.glav a {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.navigatertwo {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.navigatertwo a {
+  display: flex;
+  margin-left: 40px;
+}
+
+.navigater img {
+  width: 35px;
+  height: 20px;
+}
+
+.navigatertwo img {
+  width: 35px;
+  height: 20px;
+}
+
+.buttonLogin {
+  background-color: rgba(64, 70, 78, 1);
+  border-radius: 20px;
+  border: #ffff 1px solid;
+  width: 200px;
+  height: 40px;
+  color: #ffff;
+  margin-top: 15px;
+}
+
+.mesenger {
+  display: flex;
+  justify-content: center;
+  padding: 15px auto;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 65px;
+}
+
+.whatsapp {
+  width: 40px;
+  height: 33px;
+}
+
+.vk {
+  width: 45px;
+  height: 33px;
+  margin: 0 50px;
+}
+
+.insta {
+  width: 40px;
+  height: 33px;
+}
+
+.WelcomImge {
+  opacity: 20%;
+}
+
+.WelcomImge img {
+  width: 100%;
+  position: absolute;
+}
+
+.WelcomText {
+  text-align: center;
+}
+
+.WelcomText h2 {
+  color: rgb(255, 255, 255);
+  font-size: 22px;
+  font-weight: 100;
+  padding-top: 160px;
+}
+
+.WelcomText h2 a {
+  color: greenyellow;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.WelcomButton{
+  position: absolute;
+}
+
+.butoncotolog {
+  width: 150px;
+  height: 50px;
+  background: linear-gradient(
+      270deg,
+      #ba26ff 0%,
+      rgba(186, 38, 255, 0) 71.88%,
+      rgba(186, 38, 255, 0) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(192, 71, 235, 0.5) 35.5%,
+      rgba(192, 71, 235, 0.328125) 44.9%,
+      rgba(192, 71, 235, 0.246045) 99.99%,
+      rgba(192, 71, 235, 0) 100%
+    );
+  border-radius: 20px;
+  margin-right: 80px;
+}
+
+.butoncotolog h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.buttonserh {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 80px;
+}
+
+.buttonserh h2 {
+  color: #c047eb;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.WelcomButton {
+  padding-top: 50px;
+  text-align: center;
+}
