@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import GameItem from "./GameItem.jsx";
+import GameItem from "./GameItem.js";
 
 function GameList () {
 	const[game, setGamelist] = useState([])

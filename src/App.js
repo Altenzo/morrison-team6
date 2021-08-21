@@ -6,7 +6,7 @@ import whatsapp from "./imge/whatsapp.png";
 import vk from "./imge/vk.png";
 import insta from "./imge/insta.png";
 import welcom from "./imge/welcom.jpg";
-import GameList from "./API.jsx";
+import GameList from "./API.js";
 import GameItem from "./GameItem";
 
 function App() {
