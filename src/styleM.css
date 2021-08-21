@@ -80,3 +80,76 @@
    Height: 28px;
  }
 
+ .WelcomImge::after {
+  content: "";
+  display: block;
+  background-color: rgba(124, 110, 141, .6);
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+ .WelcomImge{
+   z-index: 1;
+   position: relative;
+ }
+
+ .WelcomImge img{
+   width: 100%;
+  height: 50vh;
+ }
+
+ .welcome-title{
+   z-index: 2;
+   position: absolute;
+   top: 250px;
+   left:500px;
+   font-weight: 200;
+   color: white;
+ }
+
+ span a{
+   color: rgb(57, 255, 57);
+   font-weight: 300;
+ }
+
+ span h2{
+   font-weight: 200;
+ }
+
+.WelcomText{
+  text-align: center;
+}
+
+.WelcomButton{
+  text-align: center;
+}
+
+.WelcomButton{
+  padding: 40px;
+}
+
+.butoncotolog{
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-right: 50px;
+  color: white;
+  background-color: #C047EB;
+  font-weight: 200;
+}
+
+.buttonserh{
+  padding: 10px 20px;
+  color: #C047EB;
+  font-weight: 200;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 50px;
+}
