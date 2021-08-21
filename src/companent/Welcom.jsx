@@ -1,4 +1,4 @@
-import welcom from "../imge/welcom.jpg";
+import welcom from "../image/welcom.jpg";
 
 function Welcom() {
   return (

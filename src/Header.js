@@ -11,32 +11,42 @@ function Header() {
       <div className="header-inner">
         <div className="header-container">
           <div className="logo">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
           </div>
 
           <nav className="nav">
             <div className="nav-container">
               <ul className="ul">
                 <li>
-                  <a href="">Главная</a> <img className="icon" src={icon} alt="" />
+                  <Link to="/">Главная</Link>
                 </li>
                 <li>
-                  <a href="">Категории</a> <img className="icon" src={icon} alt="" />
+                  <Link to="/a">Категории</Link> <img className="icon" src={icon} alt="" />
                 </li>
                 <li>
-                  <a href="">Платформы</a> <img className="icon" src={icon} alt="" />
+                  <Link to="/a">Платформы</Link> <img className="icon" src={icon} alt="" />
                 </li>
               </ul>
             </div>
           </nav>
 
           <div className="sign-in">
-            <button className="sign-in_btn">LOGIN</button>
+            <Link>
+              <button className="sign-in_btn">LOGIN</button>
+            </Link>
 
             <div className="image-sign-in">
-              <img src={whatsapp} alt="" />
-              <img src={insta} alt="" />
-              <img src={vk} alt="" />
+              <a href="">
+                <img src={whatsapp} alt="" />
+              </a>
+              <a href="">
+                <img src={insta} alt="" />
+              </a>
+              <a href="">
+                <img src={vk} alt="" />
+              </a>
             </div>
           </div>
         </div>
