@@ -3,10 +3,12 @@ import GameList from "./API";
 
 function GameItem(props) {
   return (
-    <Link className="GameItem">
+    <Link to={"/info/" + props.data.id} className="GameItem">
       <div className="cony">
-        <img src={props.data.thumbnail} alt="" />
-        <h1>{props.data.title}</h1>
+        <div className="container-api">
+            <img src={props.data.thumbnail} alt="" />
+            <h3>{props.data.title}</h3>
+        </div>
       </div>
 
     </Link>

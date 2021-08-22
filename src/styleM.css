@@ -96,9 +96,11 @@
   top: 0;
   left: 0;
   z-index: 2;
+  overflow: hidden;
 }
 
  .WelcomImge{
+   overflow: hidden;
    z-index: 1;
    position: relative;
  }
@@ -148,6 +150,41 @@
   background-color: #C047EB;
   font-weight: 200;
   cursor: pointer;
+}
+
+.container-api img{
+  object-fit: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-api h3{
+  color: white;
+}
+
+
+
+.popular-inner{
+  padding: 40px 0;
+}
+
+
+.popular-container{
+  text-align: center;
+}
+
+.popular-container h1{
+  
+  color: white;
+  font-weight: 200;
+}
+
+.GameList{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buttonserh{
