@@ -10,27 +10,29 @@ function Header() {
     <header className="header">
       <div className="header-inner">
         <div className="header-container">
-          <div className="logo">
-            <Link to="/">
-              <img src={logo} alt="" />
-            </Link>
-          </div>
-
-          <nav className="nav">
-            <div className="nav-container">
-              <ul className="ul">
-                <li>
-                  <Link to="/">Главная</Link>
-                </li>
-                <li>
-                  <Link to="/a">Категории</Link> <img className="icon" src={icon} alt="" />
-                </li>
-                <li>
-                  <Link to="/a">Платформы</Link> <img className="icon" src={icon} alt="" />
-                </li>
-              </ul>
+          <div className="nav-logo">
+            <div className="logo">
+              <Link to="/">
+                <img src={logo} alt="" />
+              </Link>
             </div>
-          </nav>
+
+            <nav className="nav">
+              <div className="nav-container">
+                <ul className="ul">
+                  <li>
+                    <Link to="/">Главная</Link>
+                  </li>
+                  <li>
+                    <Link to="/a">Категории</Link> <img className="icon" src={icon} alt="" />
+                  </li>
+                  <li>
+                    <Link to="/a">Платформы</Link> <img className="icon" src={icon} alt="" />
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
 
           <div className="sign-in">
             <Link>

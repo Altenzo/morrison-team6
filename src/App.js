@@ -14,6 +14,8 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Welcom />
+
+              <GameList/>
             </Route>
 
           </Switch>
