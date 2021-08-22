@@ -1,140 +1,155 @@
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-    body {
-    background: #7c6e8d;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .container {
-    width: 100%;
-  }
-  
-   header {
-    background: rgba(64, 70, 78, 1);
-    width: 100%;
-    height: 72px;
-  }
-  
-  .logo{
-    width: 10%;
-    height: 60px;
-  }
-  
-  .logo img {
-    height: 100%;
-    width: 100%;
-  }
-  
-  .headerList {
-    display: flex;
-  }
-  
-  .headerText {
-    justify-content: center;
-    width: 45%;
-    display: flex;
-  }
-  
-  .headerText a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .navigalist {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navigater {
-    font-size: 20px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-  }
-  
-  .navigater a {
-    display: flex;
-  }
-  
-  .glav a {
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    width: 15%;
-  }
-  
-  .navigatertwo {
-    font-family: Montserrat;
-    font-size: 20px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0px;
-    width: 15%;
-  }
-  
-  .header-title {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navigatertwo a {
-    display: flex;
-    margin-left: 40px;
-  }
-  
-  .navigater img {
-    width: 35px;
-    height: 20px;
-  }
-  
-  .navigatertwo img {
-    width: 35px;
-    height: 20px;
-  }
-  
-  .buttonLogin {
-    background-color: rgba(64, 70, 78, 1);
-    border-radius: 20px;
-    border: #ffff 1px solid;
-    width: 200px;
-    height: 40px;
-    color: #ffff;
-    margin-top: 15px;
-  }
-  
-  .mesenger {
-    display: flex;
-    justify-content: center;
-    padding: 15px auto;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 65px;
-  }
-  
-  .whatsapp {
-    width: 40px;
-    height: 33px;
-  }
-  
-  .vk {
-    width: 45px;
-    height: 33px;
-    margin: 0 50px;
-  }
-  
-  .insta {
-    width: 40px;
-    height: 33px;
-  }
+ body {
+   background: #7c6e8d;
+   font-family: 'Montserrat', sans-serif;
+ }
 
-  
+ a {
+   text-decoration: none;
+ }
+
+ .header {
+   background-color: #40464E;
+ }
+
+ .header-inner {
+   max-width: 1100px;
+   margin: 0 auto;
+   /* padding: 20px 0; */
+ }
+
+ .header-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+
+ .ul li {
+   display: flex;
+   align-items: center;
+ }
+
+ .logo img {
+   width: 121px;
+   height: 83px;
+ }
+
+ li {
+   list-style: none;
+ }
+
+ .icon {
+   width: 16px;
+   filter: invert();
+ }
+
+ .ul li a {
+   margin-left: 70px;
+   color: #ffff;
+   font-size: 20px;
+ }
+
+ .sign-in {
+   display: flex;
+   align-items: center;
+ }
+
+ .sign-in_btn {
+   padding: 8px 30px;
+   margin-right: 20px;
+   font-size: 20px;
+   background-color: #40464E;
+   color: white;
+   border: 1px white solid;
+   border-radius: 30px;
+ }
+
+ .nav-container .ul {
+   display: flex;
+ }
+
+ .image-sign-in img {
+   margin-right: 10px;
+   Width: 23px;
+   Height: 28px;
+ }
+
+ .WelcomImge::after {
+  content: "";
+  display: block;
+  background-color: rgba(124, 110, 141, .6);
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+ .WelcomImge{
+   z-index: 1;
+   position: relative;
+ }
+
+ .WelcomImge img{
+   width: 100%;
+  height: 50vh;
+ }
+
+ .welcome-title{
+   z-index: 2;
+   position: absolute;
+   top: 250px;
+   left:500px;
+   font-weight: 200;
+   color: white;
+ }
+
+ span a{
+   color: rgb(57, 255, 57);
+   font-weight: 300;
+ }
+
+ span h2{
+   font-weight: 200;
+ }
+
+.WelcomText{
+  text-align: center;
+}
+
+.WelcomButton{
+  text-align: center;
+}
+
+.WelcomButton{
+  padding: 40px;
+}
+
+.butoncotolog{
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-right: 50px;
+  color: white;
+  background-color: #C047EB;
+  font-weight: 200;
+}
+
+.buttonserh{
+  padding: 10px 20px;
+  color: #C047EB;
+  font-weight: 200;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-left: 50px;
+}

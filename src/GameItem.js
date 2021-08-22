@@ -6,7 +6,6 @@ function GameItem(props) {
     // <Link to={'/game/' + props.data.id} className="GameItem">
     <div className="cony">
       <img src={props.data.thumbnail} alt="" />
-      <h1>{props.data.title}</h1>
     </div>
 
     // </Link>

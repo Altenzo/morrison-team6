@@ -1,6 +1,6 @@
 import './App.jsx';
 
-function App() {
+function Animation() {
   let asd = 5;
   return (
     asd
