@@ -8,6 +8,7 @@ function Welcom() {
           <img src={welcom} alt="" />
         </div>
         <div className="welcome-title">
+
           <div className="WelcomText">
             <span>
               <h2>

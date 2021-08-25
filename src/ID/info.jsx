@@ -1,8 +1,9 @@
-
 import { useState, useEffect } from "react";
-import GameItem from "./GameItem.js";
+import { useParams } from "react-router";
 
-function GameList() {
+function Info() {
+    let { id } = useParams()
+
     const [game, setGamelist] = useState([])
 
     useEffect(() => {
@@ -18,21 +19,30 @@ function GameList() {
                 response.json())
             .then(data => {
                 console.log(data)
-                setGamelist(data) 
+                setGamelist(data)
             })
 
     }, [])
 
+    const [info, setInfo] = useState(false)
+    useEffect(() => {
+        setInfo(game.filter((el) => String(el.id) == String(id))[0])
+    }, [id])
+
+    if (!info) return ("fdf")
+
 
     return (
-        <div className="GameList">
-            {
-                game.map((item) => (
-                    <GameItem data={item} />
-                ))
-            }
+        <div className="info-page">
+            <img src={info.thumbnail} alt="" />
+            <h1>{info.title}</h1>
+            <h1>{info.release_date}</h1>
+            <h1>{info.genre}</h1>
+            <h1>{info.short_description}</h1>
+            <a href="">{info.freetogame_profile_url}</a>
         </div>
     )
+
 }
 
-export default GameList
+export default Info

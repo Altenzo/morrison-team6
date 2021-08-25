@@ -15,13 +15,18 @@
  }
 
  .header {
-   background-color: #40464E;
+   background-color: rgba(60, 70, 78, .5);
  }
 
  .header-inner {
-   max-width: 1100px;
+   max-width: 1200px;
    margin: 0 auto;
    /* padding: 20px 0; */
+ }
+
+ .nav-logo{
+   display: flex;
+   align-items: center;
  }
 
  .header-container {
@@ -64,10 +69,11 @@
    padding: 8px 30px;
    margin-right: 20px;
    font-size: 20px;
-   background-color: #40464E;
+   background-color: rgba(60, 70, 78, .0);
    color: white;
    border: 1px white solid;
    border-radius: 30px;
+   cursor: pointer;
  }
 
  .nav-container .ul {
@@ -90,9 +96,11 @@
   top: 0;
   left: 0;
   z-index: 2;
+  overflow: hidden;
 }
 
  .WelcomImge{
+   overflow: hidden;
    z-index: 1;
    position: relative;
  }
@@ -141,10 +149,47 @@
   color: white;
   background-color: #C047EB;
   font-weight: 200;
+  cursor: pointer;
+}
+
+.container-api img{
+  object-fit: cover;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.container-api h3{
+  color: white;
+}
+
+
+
+.popular-inner{
+  padding: 40px 0;
+}
+
+
+.popular-container{
+  text-align: center;
+}
+
+.popular-container h1{
+  
+  color: white;
+  font-weight: 200;
+}
+
+.GameList{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .buttonserh{
   padding: 10px 20px;
+  cursor: pointer;
   color: #C047EB;
   font-weight: 200;
   background-color: white;
@@ -152,4 +197,72 @@
   border-radius: 10px;
   font-size: 20px;
   margin-left: 50px;
+}
+
+.api-img{
+  background-color: black;
+  position: absolute;
+  z-index: 20;
+ 
+}
+
+.container-api-img{
+  position: relative;
+  z-index: 10;
+}
+
+.container-api{
+  margin-bottom: 20px;
+}
+
+.footer-container{
+  background: #5E5A6E;
+}
+
+
+.footerList{
+  display: flex;
+  width: 100%;
+  padding: 0 0 50px 150px;
+  color: white;
+ 
+}
+
+.footer-contact{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer-contact p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.footer-img{
+  padding-top: 90px;
+  width: 45%;
+  text-align: center;
+}
+
+.footer-img h6{
+ font-size: 14px;
+ font-weight: 100;
+ line-height: 20px ;
+}
+
+.footer-img img{
+  width: 170px;
 }
