@@ -16,6 +16,7 @@
 
  .header {
    background-color: rgba(60, 70, 78, .5);
+   /* position: fixed; */
  }
 
  .header-inner {
@@ -152,14 +153,38 @@
   cursor: pointer;
 }
 
-.container-api img{
+.container-api{
   object-fit: cover;
   margin-left: 15px;
   margin-right: 15px;
 }
 
-.container-api h3{
+
+
+.img-api::after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  height: 206px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  overflow: hidden;
+}
+
+ .img-api{
+   overflow: hidden;
+   z-index: 3;
+   position: relative;
+ }
+
+ 
+
+.title-api h3{
   color: white;
+  font-weight: 400;
 }
 
 
@@ -215,6 +240,7 @@
   margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .footer-container{
   background: #5E5A6E;
 }
@@ -266,3 +292,119 @@
 .footer-img img{
   width: 170px;
 }
+=======
+.footer{
+  background-color: rgba(60, 70, 78, .5);
+}
+
+.footer-container{
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav-footer{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.footer-nav{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.nav-footer-2{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+.logo-footer img{
+  width: 201px;
+  height: 135px;
+}
+
+.footer-nav2{
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-inner{
+  padding: 100px 0;
+}
+
+.logo-footer{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img-footer{
+  text-align: center;
+}
+
+.footer-title h5{
+  /* margin: 0px 100px 0px 100px; */
+  color: white;
+  font-weight: 200;
+}
+
+.info-container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.info-inner{
+  padding: 30px 0;
+}
+
+.info-img img{
+  border-radius: 20px;
+  width: 550px;
+  height: 330px;
+  margin-bottom: 30px;
+}
+
+.info-img{
+  width: 50%;
+}
+
+.info-h1{
+  color: white;
+}
+
+.info-desc h1{
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+}
+
+.info-img button{
+  font-weight: 200;
+  padding: 15px 190px;
+  font-size: 50px;
+  border-radius: 20px;
+  color: white;
+  background: linear-gradient(90deg, #BD00FF 0%, rgba(189, 0, 255, 0) 100%), rgba(189, 0, 255, 0.5);
+  border: none;
+}
+
+.info-df{
+  display: flex;
+  
+
+}
+
+.info-title{
+  padding: 30px 0;
+  text-align: center;
+}
+
+>>>>>>> 64b2ccf3391706c444238aa76fa68cdf8464b3ba

@@ -6,12 +6,13 @@ function GameItem(props) {
     <Link to={"/info/" + props.data.id} className="GameItem">
       <div className="cony">
         <div className="container-api">
-          <img
-            src={props.data.thumbnail}
-            alt=""
-            className="container-api-img"
-          />
-          <h3>{props.data.title}</h3>
+          <div className="img-api">
+            <img src={props.data.thumbnail} alt="" />
+          </div>
+
+          <div className="title-api">
+            <h3>{props.data.title}</h3>
+          </div>
         </div>
       </div>
     </Link>
