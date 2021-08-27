@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router";
+import { useParams } from "react-router-dom";
 
 function Info() {
     let { id } = useParams()
@@ -7,7 +7,7 @@ function Info() {
     const [game, setGamelist] = useState([])
 
     useEffect(() => {
-        fetch("https://free-to-play-games-database.p.rapidapi.com/api/filter?tag=3d.mmorpg.fantasy.pvp&platform=pc", {
+        fetch("https://free-to-play-games-database.p.rapidapi.com/api/filter?  tag=3d.mmorpg.fantasy.pvp&platform=pc", {
             "method": "GET",
             "headers": {
                 "x-rapidapi-host": "free-to-play-games-database.p.rapidapi.com",
