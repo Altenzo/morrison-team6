@@ -1,3 +1,4 @@
+  
  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
  * {
    margin: 0;
@@ -16,7 +17,7 @@
 
  .header {
    background-color: rgba(60, 70, 78, .5);
-   /* position: fixed; */
+
  }
 
  .header-inner {
@@ -241,58 +242,6 @@
 }
 
 
-.footer-container{
-  background: #5E5A6E;
-}
-
-
-.footerList{
-  display: flex;
-  width: 100%;
-  padding: 0 0 50px 150px;
-  color: white;
- 
-}
-
-.footer-contact{
-  width: 25%;
-  padding-top: 100px;
-}
-
-.footer-catigoria{
-  width: 25%;
-  padding-top: 100px;
-}
-
-.footer-catigoria p{
-  padding-bottom: 30px;
-  font-size: 20px;
-  font-weight: 200;
-}
-
-.footer-contact p{
-  padding-bottom: 30px;
-  font-size: 20px;
-  font-weight: 200;
-}
-
-
-.footer-img{
-  padding-top: 90px;
-  width: 45%;
-  text-align: center;
-}
-
-.footer-img h6{
- font-size: 14px;
- font-weight: 100;
- line-height: 20px ;
-}
-
-.footer-img img{
-  width: 170px;
-}
-
 .footer{
   background-color: rgba(60, 70, 78, .5);
 }
@@ -402,9 +351,103 @@
 
 }
 
+.info-title h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.info-desc h1{
+  font-size: 35px;
+  font-weight: 200;
+}
+
 .info-title{
   padding: 30px 0;
   text-align: center;
 }
 
 
+.info-info{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+}
+
+.box-1{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-2{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+.title-info2 h1{
+  font-weight: 400;
+}
+
+.box-info{
+  padding: 50px 0;
+}
+.box-title h2{
+  font-weight: 200;
+}
+
+.box-info-2{
+  padding: 25px 0;
+}
+
+.footer-container{
+  background: #5E5A6E;
+}
+
+
+.footerList{
+  display: flex;
+  width: 100%;
+  padding: 0 0 50px 150px;
+  color: white;
+ 
+}
+
+.footer-contact{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer-contact p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.footer-img{
+  padding-top: 90px;
+  width: 45%;
+  text-align: center;
+}
+
+.footer-img h6{
+ font-size: 14px;
+ font-weight: 100;
+ line-height: 20px ;
+}
+
+.footer-img img{
+  width: 170px;
+}
