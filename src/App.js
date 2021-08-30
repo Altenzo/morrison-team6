@@ -7,6 +7,7 @@ import Popular from "./companent/popular";
 import GameList from "./API";
 import Info from "./ID/info";
 import Footer from "./footer";
+import Login from "./companent/login";
 
 function App() {
   return (
@@ -17,16 +18,20 @@ function App() {
           <Switch>
             <Route exact path="/">
               <Welcom />
-              <Popular/>
-              <GameList/>
+              <Popular />
+              <GameList />
             </Route>
 
-            <Route path = "/info/:id">
-                <Info/>
+            <Route path ="/login">
+                <Login/>
+            </Route>
+
+            <Route path="/info/:id">
+              <Info />
             </Route>
 
           </Switch>
-          <Footer/>
+          <Footer />
         </BrowserRouter>
       </div>
     </main>

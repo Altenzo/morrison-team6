@@ -35,7 +35,7 @@ function Header() {
           </div>
 
           <div className="sign-in">
-            <Link>
+            <Link to="/login">
               <button className="sign-in_btn">LOGIN</button>
             </Link>
 
