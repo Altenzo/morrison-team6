@@ -240,6 +240,7 @@
   margin-bottom: 20px;
 }
 
+
 .footer{
   background-color: rgba(60, 70, 78, .5);
 }
@@ -396,4 +397,56 @@
 
 .box-info-2{
   padding: 25px 0;
+}
+=======
+.footer-container{
+  background: #5E5A6E;
+}
+
+
+.footerList{
+  display: flex;
+  width: 100%;
+  padding: 0 0 50px 150px;
+  color: white;
+ 
+}
+
+.footer-contact{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria{
+  width: 25%;
+  padding-top: 100px;
+}
+
+.footer-catigoria p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.footer-contact p{
+  padding-bottom: 30px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
+.footer-img{
+  padding-top: 90px;
+  width: 45%;
+  text-align: center;
+}
+
+.footer-img h6{
+ font-size: 14px;
+ font-weight: 100;
+ line-height: 20px ;
+}
+
+.footer-img img{
+  width: 170px;
 }

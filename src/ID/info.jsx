@@ -29,8 +29,6 @@ function Info() {
         setInfo(game.filter((el) => String(el.id) == String(id))[0])
     }, [id])
 
-
-
     if (info) {
         return (
             <div className="info-page">
