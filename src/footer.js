@@ -1,3 +1,4 @@
+
 import { Link } from "react-router-dom"
 import logo from "./image/logo.png";
 
@@ -28,32 +29,31 @@ function Footer() {
                         <Link className="footer-nav2">
                             Категории
                         </Link>
-
                         <Link className="footer-nav2">
-                            Платформы
-                        </Link>
-                    </nav>
+                          Платформы
+                          </Link>
+          </nav>
 
-
-                    <div className="logo-footer">
-                        <div className="img-footer">
-
-                        <img src={logo} alt="" />
-                        </div>
-
-                        <div className="footer-title">
-                            <h5>
-                                © 2021 Morrison Team6 Media, все права защищены.<br/>
-                                Все товарные знаки являются собственностью соответствующих владельцев.
-                            </h5>
-
-                        </div>
-                    </div>
-                </div>
+          <div className="logo-footer">
+            <div className="img-footer">
+              <img src={logo} alt="" />
             </div>
+
+
+
+            <div className="footer-title">
+              <h5>
+                © 2021 Morrison Team6 Media, все права защищены.
+                <br />
+                Все товарные знаки являются собственностью соответствующих
+                владельцев.
+              </h5>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
- export default Footer;
-
+export default Footer;
