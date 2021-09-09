@@ -97,9 +97,10 @@ function Info() {
 
             </div>
         )
-    } else {
+    } 
+    else {
         return ("не найдено")
     }
 }
 
-export default Info
+export default Info;

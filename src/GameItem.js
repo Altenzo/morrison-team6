@@ -4,7 +4,7 @@ import GameProvider from "./companent/GameContext";
 
 function GameItem(props) {
   
-  const currentGame = useContext(GameContext);
+  // const currentGame = useContext(GameContext);
 
   return (
     <Link to={"/info/" + props.data.id} className="GameItem">

@@ -1,13 +1,14 @@
 import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
 import "./styleM.css";
-
 import Header from "./Header";
 import Welcom from "./companent/Welcom.jsx";
 import Popular from "./companent/popular";
 import GameList from "./API";
 import Info from "./ID/info";
 import Footer from "./footer";
-import Login from "./companent/login";
+import Login from "./companent/login"; 
+import Katigori from "./companent/katigori";
+import Shootlist from "./genre/shooter";
 
 function App() {
   return (
@@ -28,6 +29,14 @@ function App() {
 
             <Route path="/info/:id">
               <Info />
+            </Route>
+
+            <Route path="/a">
+              <Katigori />
+            </Route>
+
+            <Route path="/Shooter">
+              <Shootlist />
             </Route>
 
           </Switch>

@@ -27,7 +27,7 @@ function Header() {
                     <Link to="/a">Категории</Link> <img className="icon" src={icon} alt="" />
                   </li>
                   <li>
-                    <Link to="/a">Платформы</Link> <img className="icon" src={icon} alt="" />
+                    <Link to="/b">Платформы</Link> <img className="icon" src={icon} alt="" />
                   </li>
                 </ul>
               </div>
